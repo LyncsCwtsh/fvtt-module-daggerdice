@@ -14,7 +14,7 @@ My final goal is to have one Hope/Fear die for every domain available.
 
 ### Feedback
 If you have any feedback, feel free to dm me directly in discord (lyncscwtsh, no friend request necessary if you are part of the Foundry or Foundryborne server).
-Doesn’t matter if it’s about requests, errors in the code or other dice related musings. Getting feedback also encourages me to figure out how Github works and wrestle with code instead of keeping creations private.
+Doesn’t matter if it’s about requests, errors in the code or other dice related musings.
 
 Caveat to requests, please check if [the Rollsmith](https://therollsmith.com) already has something you would like to use. I enjoy creating things others can use and enjoy as well, but I’m not going to replicate anything they have created (they do awesome stuff and I’m looking forward to what they will add next).
 
