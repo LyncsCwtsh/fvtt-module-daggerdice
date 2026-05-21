@@ -1,6 +1,6 @@
 # Nice more Daggerdice
 
-![preview](Images/banner.jpg?raw=true)
+![preview](images/banner.jpg?raw=true)
 
 This module works as an addon to Dice so Nice, adding more dice faces (all d12) and a few textures to give users more customization options for their dice.
 
