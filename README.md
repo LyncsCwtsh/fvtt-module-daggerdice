@@ -9,8 +9,6 @@ Especially for textures, play around with light and dark die colours, as they wi
 
 Everything this module adds is marked with a dagger icon, so you can discern between what different DsN addons add.
 
-You can find proper previews with examples [here](https://github.com/LyncsCwtsh/fvtt-module-daggerdice/blob/main/Dice%20Preview.md).
-
 ### Future Plans
 My final goal is to have one Hope/Fear die for every domain available.
 
