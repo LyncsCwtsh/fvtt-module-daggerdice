@@ -140,7 +140,7 @@ dice3d.addSystem({id:"arroweddark",name:"🗡️ Arrowed (Dark)"},false);
       system:"runew"
   });
 
-  dice3d.addSystem({id:"runewf",name:"🗡️ Runic Warrior (fill)"},false);
+  dice3d.addSystem({id:"runewf",name:"🗡️ Runic Warrior (Fill)"},false);
 
   dice3d.addDicePreset({
     type:"d12",
@@ -175,7 +175,7 @@ dice3d.addSystem({id:"arroweddark",name:"🗡️ Arrowed (Dark)"},false);
       system:"runewf"
   });
 
-  dice3d.addSystem({id:"runewc",name:"🗡️ Runic Warrior (cutout)"},false);
+  dice3d.addSystem({id:"runewc",name:"🗡️ Runic Warrior (Cutout)"},false);
 
   dice3d.addDicePreset({
     type:"d12",
