@@ -15,7 +15,7 @@
     "scripts/daggerdice.json"
   ],
   "url": "https://github.com/LyncsCwtsh/fvtt-module-daggerdice",
-  "manifest": "https://raw.githubusercontent.com/LyncsCwtsh/fvtt-module-daggerdice/main/nice-more-dice/module.json",
+  "manifest": "https://raw.githubusercontent.com/LyncsCwtsh/fvtt-module-daggerdice/main/daggerdice/module.json",
   "download": "https://raw.githubusercontent.com/LyncsCwtsh/fvtt-module-daggerdice/main/module.zip",
   "compatibility": {
     "minimum": "0.7.9",
