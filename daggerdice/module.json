@@ -1,0 +1,24 @@
+{
+  "id": "daggerdice",
+  "title": "Nice more Daggerdice",
+  "description": "Dice for Daggerheart or people who especially like d12s.",
+  "version": "1.0.0",
+  "readme": "https://github.com/LyncsCwtsh/fvtt-module-daggerdice/blob/main/README.md",
+  "changelog": "https://github.com/LyncsCwtsh/fvtt-module-daggerdice/blob/main/Changelog.md",
+  "authors": [
+    {
+      "name": "LyncsCwtsh",
+      "flags": {}
+    }
+  ],
+  "scripts": [
+    "scripts/daggerdice.json"
+  ],
+  "url": "https://github.com/LyncsCwtsh/fvtt-module-daggerdice",
+  "manifest": "https://raw.githubusercontent.com/LyncsCwtsh/fvtt-module-daggerdice/main/daggerdice/module.json",
+  "download": "https://raw.githubusercontent.com/LyncsCwtsh/fvtt-module-daggerdice/main/module.zip",
+  "compatibility": {
+    "minimum": "0.7.9",
+    "verified": "14"
+  }
+}
