@@ -20,7 +20,7 @@ Caveat to requests, please check if [the Rollsmith](https://therollsmith.com) al
 
 ### Want more of my dice?
 - [The big boi with many a thing](https://foundryvtt.com/packages/nice-more-dice)
-- [The more humble, Fudge/Fate die designs](https://github.com/LyncsCwtsh/fvtt-module-fudgeoplenty)
+- [The more humble, Fudge/Fate die designs](https://foundryvtt.com/packages/fudgeoplenty)
 
 ### License
 This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) and the Foundry Virtual Tabletop [EULA - Limited License Agreement for module development](https://foundryvtt.com/article/license/).
