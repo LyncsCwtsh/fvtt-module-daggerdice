@@ -1,8 +1,10 @@
 ## 1.1.0
-- NEW 2 Stained Glass d12:
--- Sword o' Clock: the higher the number, the higher the number of swords (light and dark variant)
--- Castle Knights: with numbers (light and dark variant)
+- NEW 2 Stained Glass inspired d12s:
+  - Castle Knights: with numbers (light and dark variant)
+  - 12 Swords till Midnight: the higher the number, the higher the number of swords (light and dark variant)
 - JSON/JS fix for Chrome
+
+![preview](images/stainedglasspreview.webp?raw=true)
 
 ## 1.0.0 Initial Release
 - D12s:
