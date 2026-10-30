@@ -1,5 +1,182 @@
 Hooks.on('diceSoNiceReady', (dice3d) => {
 
+dice3d.addSystem({id:"werefluff",name:"🗡️ Werefluff"},false);
+
+  dice3d.addDicePreset({
+    type:"d12",
+    labels:[
+      'modules/daggerdice/faces/werefluff/d12-1.webp',
+      'modules/daggerdice/faces/werefluff/d12-2.webp',
+      'modules/daggerdice/faces/werefluff/d12-3.webp',
+      'modules/daggerdice/faces/werefluff/d12-4.webp',
+      'modules/daggerdice/faces/werefluff/d12-5.webp',
+      'modules/daggerdice/faces/werefluff/d12-6.webp',
+      'modules/daggerdice/faces/werefluff/d12-7.webp',
+      'modules/daggerdice/faces/werefluff/d12-8.webp',
+      'modules/daggerdice/faces/werefluff/d12-9.webp',
+      'modules/daggerdice/faces/werefluff/d12-10.webp',
+      'modules/daggerdice/faces/werefluff/d12-11.webp',
+      'modules/daggerdice/faces/werefluff/d12-12.webp'
+    ],
+    bumpMaps:[
+      'modules/daggerdice/faces/werefluff/d12-1b.webp',
+      'modules/daggerdice/faces/werefluff/d12-2b.webp',
+      'modules/daggerdice/faces/werefluff/d12-3b.webp',
+      'modules/daggerdice/faces/werefluff/d12-4b.webp',
+      'modules/daggerdice/faces/werefluff/d12-5b.webp',
+      'modules/daggerdice/faces/werefluff/d12-6b.webp',
+      'modules/daggerdice/faces/werefluff/d12-7b.webp',
+      'modules/daggerdice/faces/werefluff/d12-8b.webp',
+      'modules/daggerdice/faces/werefluff/d12-9b.webp',
+      'modules/daggerdice/faces/werefluff/d12-10b.webp',
+      'modules/daggerdice/faces/werefluff/d12-11b.webp',
+      'modules/daggerdice/faces/werefluff/d12-12b.webp'
+	 ],
+      system:"werefluff"
+  });
+  
+  dice3d.addSystem({id:"bloodied",name:"🗡️ Blood & Claws"},false);
+
+  dice3d.addDicePreset({
+    type:"d12",
+    labels:[
+      'modules/daggerdice/faces/werefluff/bloodied/d12-1.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-2.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-3.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-4.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-5.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-6.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-7.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-8.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-9.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-10.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-11.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-12.webp'
+    ],
+    bumpMaps:[
+      'modules/daggerdice/faces/werefluff/bloodied/d12-1b.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-2b.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-3b.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-4b.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-5b.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-6b.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-7b.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-8b.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-9b.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-10b.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-11b.webp',
+      'modules/daggerdice/faces/werefluff/bloodied/d12-12b.webp'
+	 ],
+      system:"bloodied"
+  });
+  
+
+dice3d.addSystem({id:"h&f",name:"🗡️ Hope & Fear (Combo)"},false);
+
+  dice3d.addDicePreset({
+    type:"d12",
+    labels:[
+      'modules/daggerdice/faces/hope&fear/d12-1.webp',
+      'modules/daggerdice/faces/hope&fear/d12-2.webp',
+      'modules/daggerdice/faces/hope&fear/d12-3.webp',
+      'modules/daggerdice/faces/hope&fear/d12-4.webp',
+      'modules/daggerdice/faces/hope&fear/d12-5.webp',
+      'modules/daggerdice/faces/hope&fear/d12-6.webp',
+      'modules/daggerdice/faces/hope&fear/d12-7.webp',
+      'modules/daggerdice/faces/hope&fear/d12-8.webp',
+      'modules/daggerdice/faces/hope&fear/d12-9.webp',
+      'modules/daggerdice/faces/hope&fear/d12-10.webp',
+      'modules/daggerdice/faces/hope&fear/d12-11.webp',
+      'modules/daggerdice/faces/hope&fear/d12-12.webp'
+    ],
+    bumpMaps:[
+      'modules/daggerdice/faces/hope&fear/d12-1b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-2b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-3b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-4b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-5b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-6b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-7b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-8b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-9b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-10b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-11b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-12b.webp'
+	 ],
+      system:"h&f"
+  });
+
+dice3d.addSystem({id:"h&fv",name:"🗡️ Hope & Fear (Vermillion)"},false);
+
+  dice3d.addDicePreset({
+    type:"d12",
+    labels:[
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-1.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-2.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-3.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-4.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-5.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-6.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-7.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-8.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-9.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-10.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-11.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-12.webp'
+    ],
+    bumpMaps:[
+      'modules/daggerdice/faces/hope&fear/d12-1b.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-2b.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-3b.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-4b.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-5b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-6b.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-7b.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-8b.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-9b.webp',
+      'modules/daggerdice/faces/hope&fear/vermilion/d12-10b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-11b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-12b.webp'
+	 ],
+      system:"h&fv"
+  });
+
+dice3d.addSystem({id:"h&fn",name:"🗡️ Hope & Fear (Nebula)"},false);
+
+  dice3d.addDicePreset({
+    type:"d12",
+    labels:[
+      'modules/daggerdice/faces/hope&fear/nebula/d12-1.webp',
+      'modules/daggerdice/faces/hope&fear/nebula/d12-2.webp',
+      'modules/daggerdice/faces/hope&fear/nebula/d12-3.webp',
+      'modules/daggerdice/faces/hope&fear/nebula/d12-4.webp',
+      'modules/daggerdice/faces/hope&fear/nebula/d12-5.webp',
+      'modules/daggerdice/faces/hope&fear/nebula/d12-6.webp',
+      'modules/daggerdice/faces/hope&fear/nebula/d12-7.webp',
+      'modules/daggerdice/faces/hope&fear/nebula/d12-8.webp',
+      'modules/daggerdice/faces/hope&fear/nebula/d12-9.webp',
+      'modules/daggerdice/faces/hope&fear/nebula/d12-10.webp',
+      'modules/daggerdice/faces/hope&fear/nebula/d12-11.webp',
+      'modules/daggerdice/faces/hope&fear/nebula/d12-12.webp'
+    ],
+    bumpMaps:[
+      'modules/daggerdice/faces/hope&fear/d12-1b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-2b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-3b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-4b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-5b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-6b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-7b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-8b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-9b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-10b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-11b.webp',
+      'modules/daggerdice/faces/hope&fear/d12-12b.webp'
+	 ],
+      system:"h&fn"
+  });
+
+
 dice3d.addSystem({id:"arroweddark",name:"🗡️ Arrowed (Dark)"},false);
 
   dice3d.addDicePreset({
