@@ -4,6 +4,7 @@
 
 # Textures
 ![preview](images/rainbowtexpreview.webp?raw=true)
+![preview](images/texturespreview.webp?raw=true)
 
 # Themes
 
