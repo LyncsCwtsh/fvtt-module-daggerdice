@@ -13,6 +13,7 @@ You can find proper previews with examples [here](https://github.com/LyncsCwtsh/
 
 ### Future Plans
 My final goal is to have one Hope/Fear die for every domain available.
+- colour themes for hope and fear rolls
 
 ### Feedback
 If you have any feedback, feel free to dm me directly in discord (lyncscwtsh, no friend request necessary if you are part of the Foundry or Foundryborne server).
