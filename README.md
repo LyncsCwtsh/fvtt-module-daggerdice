@@ -9,12 +9,15 @@ Especially for textures, play around with light and dark die colours, as they wi
 
 Everything this module adds is marked with a dagger icon, so you can discern between what different DsN addons add.
 
+You can find proper previews with examples [here](https://github.com/LyncsCwtsh/fvtt-module-daggerdice/blob/main/Dice%20Preview.md).
+
 ### Future Plans
 My final goal is to have one Hope/Fear die for every domain available.
+- colour themes for hope and fear rolls
 
 ### Feedback
 If you have any feedback, feel free to dm me directly in discord (lyncscwtsh, no friend request necessary if you are part of the Foundry or Foundryborne server).
-Doesn’t matter if it’s about requests, errors in the code or other dice related musings.
+Doesn’t matter if it’s about requests, errors in the code or other dice related musings. Issues on Github are of course also welcome.
 
 Caveat to requests, please check if [the Rollsmith](https://therollsmith.com) already has something you would like to use. I enjoy creating things others can use and enjoy as well, but I’m not going to replicate anything they have created (they do awesome stuff and I’m looking forward to what they will add next).
 

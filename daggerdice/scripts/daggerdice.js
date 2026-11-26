@@ -1,4 +1,110 @@
 Hooks.on('diceSoNiceReady', (dice3d) => {
+	
+dice3d.addSystem({id:"bookish",name:"🗡️ Codex Pages"},false);
+
+  dice3d.addDicePreset({
+    type:"d12",
+    labels:[
+      'modules/daggerdice/faces/codex/d12-1.webp',
+      'modules/daggerdice/faces/codex/d12-2.webp',
+      'modules/daggerdice/faces/codex/d12-3.webp',
+      'modules/daggerdice/faces/codex/d12-4.webp',
+      'modules/daggerdice/faces/codex/d12-5.webp',
+      'modules/daggerdice/faces/codex/d12-6.webp',
+      'modules/daggerdice/faces/codex/d12-7.webp',
+      'modules/daggerdice/faces/codex/d12-8.webp',
+      'modules/daggerdice/faces/codex/d12-9.webp',
+      'modules/daggerdice/faces/codex/d12-10.webp',
+      'modules/daggerdice/faces/codex/d12-11.webp',
+      'modules/daggerdice/faces/codex/d12-12.webp'
+    ],
+    bumpMaps:[
+      'modules/daggerdice/faces/codex/d12-1b.webp',
+      'modules/daggerdice/faces/codex/d12-2b.webp',
+      'modules/daggerdice/faces/codex/d12-3b.webp',
+      'modules/daggerdice/faces/codex/d12-4b.webp',
+      'modules/daggerdice/faces/codex/d12-5b.webp',
+      'modules/daggerdice/faces/codex/d12-6b.webp',
+      'modules/daggerdice/faces/codex/d12-7b.webp',
+      'modules/daggerdice/faces/codex/d12-8b.webp',
+      'modules/daggerdice/faces/codex/d12-9b.webp',
+      'modules/daggerdice/faces/codex/d12-10b.webp',
+      'modules/daggerdice/faces/codex/d12-11b.webp',
+      'modules/daggerdice/faces/codex/d12-12b.webp'
+	 ],
+      system:"bookish"
+  });
+	
+dice3d.addSystem({id:"bookishc",name:"🗡️ Codex Pages (Cutout)"},false);
+
+  dice3d.addDicePreset({
+    type:"d12",
+    labels:[
+      'modules/daggerdice/faces/codex/cutout/d12-1.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-2.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-3.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-4.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-5.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-6.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-7.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-8.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-9.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-10.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-11.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-12.webp'
+    ],
+    bumpMaps:[
+      'modules/daggerdice/faces/codex/cutout/d12-1b.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-2b.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-3b.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-4b.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-5b.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-6b.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-7b.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-8b.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-9b.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-10b.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-11b.webp',
+      'modules/daggerdice/faces/codex/cutout/d12-12b.webp'
+	 ],
+      system:"bookishc"
+  });	
+	
+	
+dice3d.addSystem({id:"bookishf",name:"🗡️ Codex Pages (Fill)"},false);
+
+  dice3d.addDicePreset({
+    type:"d12",
+    labels:[
+      'modules/daggerdice/faces/codex/fill/d12-1.webp',
+      'modules/daggerdice/faces/codex/fill/d12-2.webp',
+      'modules/daggerdice/faces/codex/fill/d12-3.webp',
+      'modules/daggerdice/faces/codex/fill/d12-4.webp',
+      'modules/daggerdice/faces/codex/fill/d12-5.webp',
+      'modules/daggerdice/faces/codex/fill/d12-6.webp',
+      'modules/daggerdice/faces/codex/fill/d12-7.webp',
+      'modules/daggerdice/faces/codex/fill/d12-8.webp',
+      'modules/daggerdice/faces/codex/fill/d12-9.webp',
+      'modules/daggerdice/faces/codex/fill/d12-10.webp',
+      'modules/daggerdice/faces/codex/fill/d12-11.webp',
+      'modules/daggerdice/faces/codex/fill/d12-12.webp'
+    ],
+    bumpMaps:[
+      'modules/daggerdice/faces/codex/d12-1b.webp',
+      'modules/daggerdice/faces/codex/d12-2b.webp',
+      'modules/daggerdice/faces/codex/d12-3b.webp',
+      'modules/daggerdice/faces/codex/d12-4b.webp',
+      'modules/daggerdice/faces/codex/d12-5b.webp',
+      'modules/daggerdice/faces/codex/d12-6b.webp',
+      'modules/daggerdice/faces/codex/d12-7b.webp',
+      'modules/daggerdice/faces/codex/d12-8b.webp',
+      'modules/daggerdice/faces/codex/d12-9b.webp',
+      'modules/daggerdice/faces/codex/d12-10b.webp',
+      'modules/daggerdice/faces/codex/d12-11b.webp',
+      'modules/daggerdice/faces/codex/d12-12b.webp'
+	 ],
+      system:"bookishf"
+  });		
 
 dice3d.addSystem({id:"werefluff",name:"🗡️ Werefluff"},false);
 
@@ -106,7 +212,7 @@ dice3d.addSystem({id:"h&f",name:"🗡️ Hope & Fear (Combo)"},false);
       system:"h&f"
   });
 
-dice3d.addSystem({id:"h&fv",name:"🗡️ Hope & Fear (Vermillion)"},false);
+dice3d.addSystem({id:"h&fv",name:"🗡️ Hope & Fear (Vermilion)"},false);
 
   dice3d.addDicePreset({
     type:"d12",
@@ -563,6 +669,33 @@ dice3d.addSystem({id:"knightglass",name:"🗡️ Castle Knights (Dark)"},false);
       system:"swordglass2"
   });
 
+dice3d.addColorset({
+    name: 'rainbowalt',
+    description: '🗡️ Pastel Rainbow',
+    category: 'Colors',
+    edge: [
+        '#db606e',
+        '#ed955c',
+        '#e1c269',
+        '#85c87d',
+        '#709cd4',
+        '#a85cd1'
+    ],
+    background: [
+        '#db606e',
+        '#ed955c',
+        '#e1c269',
+        '#85c87d',
+        '#709cd4',
+        '#a85cd1'
+    ]
+});
+
+	dice3d.addTexture("rainbow", {
+	    name: "🗡️ Rainbow",
+	    composite: "difference",
+	    source: "modules/daggerdice/textures/rainbow.webp"
+	});
 
 	dice3d.addTexture("greywolf", {
 	    name: "🗡️ Greywolf",
